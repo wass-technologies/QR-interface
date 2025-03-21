@@ -99,11 +99,11 @@ li{
     animation: float 5s ease-in-out infinite;
     -webkit-box-reflect: below 15px linear-gradient(to bottom, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0));
 }
-/* .qr-container:hover .qr-code {
+.qr-container:hover .qr-code {
     transform: rotateY(0deg) translateZ(20px);
     transform: rotatex(180deg);
     transform: rotatez(180deg);
-} */
+}
 @keyframes float {
     0% {
         transform: translateY(0px);
